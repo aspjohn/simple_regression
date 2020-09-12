@@ -92,7 +92,7 @@ print("(x) Arithmetic mean      : {}\n".format(calc.ra_x) +
       "(x) Sample Variance      : {}\n".format(calc.variance_x) +
       "(x) Sample Variance std  : {}\n".format(calc.variance_std_x))
 
-print("(y) Arithmetic mean      : {}\n".format(calc.ra_y) +
+print( "(y) Arithmetic mean      : {}\n".format(calc.ra_y) +
       "(y) Sample Variance      : {}\n".format(calc.variance_y) +
       "(y) Sample Variance std  : {}\n".format(calc.variance_std_y))
 
