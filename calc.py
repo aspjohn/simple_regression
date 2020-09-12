@@ -93,15 +93,15 @@ print("(x) Arithmetic mean      : {}\n".format(calc.ra_x) +
       "(x) Sample Variance std  : {}\n".format(calc.variance_std_x))
 
 print("(y) Arithmetic mean      : {}\n".format(calc.ra_y) +
-      "(y) Sample Variance      : {}\n".format(calc.variance_y, 4) +
-      "(y) Sample Variance std  : {}\n".format(calc.variance_std_y, 4))
+      "(y) Sample Variance      : {}\n".format(calc.variance_y) +
+      "(y) Sample Variance std  : {}\n".format(calc.variance_std_y))
 
 print("(xy) Covariance          : {}\n".format(calc.covariance) +
-      "(xy) Correlation         : {}\n".format(calc.correlation, 4))
+      "(xy) Correlation         : {}\n".format(calc.correlation))
 
 print("(b) Beta                 : {}\n".format(calc.beta) +
-      "(a) Alpha                : {}\n".format(calc.alpha, 4))
+      "(a) Alpha                : {}\n".format(calc.alpha))
 
 print("(skew) Skewness          : {}\n".format(calc.skewness) +
       "(kurt) kurtosis          : {}\n".format(calc.kurtosis) +
-      "(kurt-3) excess kurtosis : {}".format(calc.excess_kurt, 4))
+      "(kurt-3) excess kurtosis : {}".format(calc.excess_kurt))
